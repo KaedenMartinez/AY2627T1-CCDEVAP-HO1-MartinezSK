@@ -353,6 +353,34 @@ main > section img {
     background: #eae7df;
 }
 
+main > p:last-child {
+    margin: 0;
+    padding: 25px 7%;
+
+    background: #f3f0e9;
+
+    border-top: 1px solid #aaa;
+}
+
+main > p:last-child a {
+    display: inline-block;
+
+    padding: 10px 18px;
+
+    background: #176b4d;
+    color: white;
+
+    font-size: 14px;
+    text-decoration: none;
+
+    border: 1px solid #176b4d;
+}
+
+main > p:last-child a:hover {
+    background: #0d5039;
+    border-color: #0d5039;
+}
+
 /* contact page header */
 body:has(form) header {
     min-height: 330px;
